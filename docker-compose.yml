@@ -15,8 +15,8 @@ services:
       - "8000:8000"
     volumes:
       - .:/BookStore/
-    # env_file:
-    #   - .env    
+    env_file:
+      - .env    
     # command: bash -c "while true; do sleep 1; done"  # Infinite loop to keep container live doing nothing
     command: ./start.sh
 
