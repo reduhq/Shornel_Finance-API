@@ -1,0 +1,1 @@
+from shornel_finance_api.models.user import User
