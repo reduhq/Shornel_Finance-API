@@ -14,7 +14,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - .:/BookStore/
+      - .:/shornel_finance/
     env_file:
       - .env    
     # command: bash -c "while true; do sleep 1; done"  # Infinite loop to keep container live doing nothing
